@@ -5,15 +5,18 @@ from pygments.token import Token, Comment, Name, Keyword, Generic, Number, \
 
 BASE03 = "#1c1c1c"
 BASE02 = "#262626"
-BASE01 = "#4e4e4e"
+# Backtick, Comment
+BASE01 = "#008060"
 BASE00 = "#585858"
 BASE0 = "#808080"
-BASE1 = "#8a8a8a"
+# Name.Attribute, Operator, Token
+BASE1 = "#cccccc"
 BASE2 = "#d7d7af"
 BASE3 = "#ffffd7"
 YELLOW = "#af8700"
 ORANGE = "#d75f00"
-RED = "#af0000"
+# Keyword.Type, String.Escape, String.Regex, Generic.Deleted; with bold: Generic.Error
+RED = "#ff00ff"
 MAGENTA = "#af005f"
 VIOLET = "#5f5faf"
 BLUE = "#0087ff"

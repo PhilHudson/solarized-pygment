@@ -12,7 +12,7 @@ Install it as a pygments plugin using the following command
 
     ./setup.py install
 
-## Acknoledgements
+## Acknowledgements
 
 * Light version pygments port - [John Louis Del Rosario (john2x)](/john2x)
 * Dark version pygments port - [Hank (gthank)](/gthank)
